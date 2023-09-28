@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatDoc</title>
+    <link rel="icon" type="./assets/image/x-icon" href="./assets/image/logo.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+
+<body>
+    <header class="atas">
+        <img src="./assets/image/logo.png" id="logo" alt="">
+
+        <nav class="bar">
+            <a href="#header">Home</a>
+            <a href="#profil">Profil</a>
+            <a href="dokter.html">List Dokter</a>
+            <a id="chatdok" onclick="openform()">Chat Dokter</a>
+            <a href="#">List Book ChatDoc</a>
+            <a href="#contact">Kontak</a>
+            
+        </nav>
+
+    </header>
+    <div class="bg-image">
+        <img src="./assets/image/a.jpg" alt="bg-image" width="100%" height="100%">
+        <div class="bg-content">
+            <h1>Selamat Datang di Chatdoc</h1>
+            <p>Solusi Kesehatan anda yang jauh dari Dokter. Silahkan menggunakan fitur Chat Dokter untuk membantu anda
+                menjawab pertanyaan atau solusi penyakit anda!</p>
+            <a href="#">Selengkapnya</a>
+        </div>
+    </div>
+    
+    <div class="profil">
+        <div class="main-profil">
+            <div class="in-profil">
+                <div class="profil-cntn">
+                    <h1>Profil Chatdoc</h1>
+                    <p>Silahkan diisi tentang Profil</p>
+                    <a href="profil.html">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="in-profil">
+                <div class="in-profil-img">
+                    <img src="./assets/image/b.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="service">
+        <div class="service-cont">
+            <div class="service-kiri">
+                <h1>Pelayanan Chatdoc</h1>
+                <p>Pada Chatdoc kami Menyediakan Pelayanan Kesehatan</p>
+            </div>
+
+            <div class="service-utama">
+                <div class="service-cntn" id="chatdok">
+                    <a target="_blank" href="#">
+                        <img src="./assets/image/dok.jpeg" alt="Dokter" width="" height="s">
+                    </a>
+                    <div class="deskripsi">Temukan Dokter yang sesuai dengan anda</div>
+                </div>
+                <div class="service-cntn">
+                    <a target="_blank" href="#">
+                        <img src="./assets/image/obat.png" alt="Dokter" width="" height="138px">
+                    </a>
+                    <div class="deskripsi">Temukan obat yang anda butuhkan</div>
+                </div>
+                <div class="service-cntn">
+                    <a target="_blank" href="#">
+                        <img src="./assets/image/dok.jpeg" alt="Dokter" width="" height="">
+                    </a>
+                    <div class="deskripsi">Temukan Dokter yang sesuai dengan anda</div>
+                </div>
+                <div class="service-cntn">
+                    <a target="_blank" href="#">
+                        <img src="./assets/image/dok.jpeg" alt="Dokter" width="" height="">
+                    </a>
+                    <div class="deskripsi">Temukan Dokter yang sesuai dengan anda</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bawah">
+        <div class="main-bawah">
+            <div class="inner-footer">
+                <img src="./assets/image/logo.png" alt="">
+            </div>
+
+            <div class="inner-footer">
+                <h2>Link Bantuan</h2>
+                <a href="#">Home</a>
+                <a href="#">Profil</a>
+                <a href="#">List Dokter</a>
+            </div>
+
+            <div class="inner-footer">
+                <h2>Social Media</h2>
+                <a href="#">
+                    <div class="fab fa-instagram"></div> Instagram
+                </a>
+                <a href="#">
+                    <div class="fab fa-facebook"></div> Facebook
+                </a>
+                <a href="#">
+                    <div class="fab fa-twitter"></div> Twitter
+                </a>
+            </div>
+
+            <div class="copyright">
+                &copy; Copyright <strong><span> RevoU Semarang Team P -Group 31-</span></strong>.
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="bukaform">
+        <div class="form">
+            <span class="close-button" id="tutupform" onclick="tutupform()">&times;</span>
+            <h2>Silahkan Isi Data</h2>
+            <form action="#" class="form-container">
+                <label for="nama">Nama :</label>
+                <input type="text" id="nama" name="nama"><br>
+                <label for="jenis Kelamin">Jenis Kelamin</label>
+                <select class="form-cont" name="jenis_kelamin">
+                    <option>Laki-Laki</option>
+                    <option>Perempuan</option>
+                </select>
+                <br>
+                <label for="no_hp">No Handphone</label>
+                <input type="numeric" id="no_hp" name="no_hp"><br>
+                <label for="email">Alamat Email</label>
+                <input type="text" id="email" name="email"><br>
+                <label for="tgl_kons">Tanggal Konsultasi</label>
+                <input type="date" id="tgl_kons" name="tgl_kons" required>
+                <label for="pil_wkt">Pilih jam Konsultasi</label>
+                <input type="time" id="pil_wkt" name="pil_wkt" required>
+                <button type="submit" class="btn">Simpan</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="./js/script.js"></script>
+</html>
