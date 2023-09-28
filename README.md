@@ -1,3 +1,10 @@
-# APLIKASI CHATDOC
+# APLIKASI Healthcare CHATDOC
 
-![logo](https://github.com/Kampus-Merdeka-Software-Engineering/front-end-capstone-project-section-semarang-group-31/assets/65585044/1c0872aa-52b0-4bea-9b20-6d8d0f377677)
+![logo](https://github.com/Kampus-Merdeka-Software-Engineering/front-end-capstone-project-section-semarang-group-31/assets/65585044/e543eb24-c8e2-42e9-8e74-67ed65bf4a42)
+
+Project Leader: 
+🧑‍💻 Fahru Rojak
+
+Front End Enggineer:
+👩‍💻 Rini Susanti 
+🧑‍💻 Tri Ananda Rivalzi
