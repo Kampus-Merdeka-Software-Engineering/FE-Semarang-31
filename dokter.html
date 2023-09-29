@@ -3,19 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Dokter</title>
+    <link rel="stylesheet" href="./css/dokter.css">
+    <title>Form Data Dokter</title>
 </head>
 <body>
-    <h1 align="center"> Daftar Dokter</h1>
-    <table align="center" border="3" cellpadding="5" cellspacing="2">
-        <tr>
-            <th>No.</th>
-            <th>NAMA</th>
-            <th>NIP</th>
-            <th>JENIS KELAMIN</th>
-            <th>SPESIALIS</th>
-            <th>Foto</th>
-        </tr>
-    </table>  
+    <h1>Form Data Dokter</h1>
+    <form id="dokterForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="jkLaki" name="jenisKelamin" value="Laki-laki">
+        <label for="jkLaki">Laki-laki</label>
+        <input type="radio" id="jkPerempuan" name="jenisKelamin" value="Perempuan">
+        <label for="jkPerempuan">Perempuan</label><br>
+
+        <label for="noHP">No HP:</label>
+        <input type="tel" id="noHP" name="noHP" required><br>
+
+        <label for="email">Alamat Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="tanggalKonsultasi">Tanggal Konsultasi:</label>
+        <input type="date" id="tanggalKonsultasi" name="tanggalKonsultasi" required><br>
+
+        <label for="jamKonsultasi">Pilih Jam Konsultasi:</label>
+        <select id="jamKonsultasi" name="jamKonsultasi" required>
+            <option value="08:00">08:00 AM</option>
+            <option value="10:00">10:00 AM</option>
+            <option value="14:00">02:00 PM</option>
+            <option value="16:00">04:00 PM</option>
+        </select><br>
+
+        <input type="submit" value="Simpan">
+    </form>
+
+    <script src="./js/tambah.js"></script>
 </body>
 </html>
