@@ -8,3 +8,6 @@ Project Leader:
 Front End Enggineer:
 👩‍💻 Rini Susanti 
 🧑‍💻 Tri Ananda Rivalzi
+
+
+Fitur-Fitur Yang Tersedia Di Aplikasi

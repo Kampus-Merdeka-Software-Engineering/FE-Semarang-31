@@ -84,8 +84,21 @@ html {
 
 .bg-content h1 {
     color: black;
-    font-size: 60px;
-    margin-bottom: 10px;
+    font-size: 42px;
+    margin-bottom: 30px;
+    white-space: nowrap; /* Mencegah teks melompat ke baris berikutnya */
+    overflow: hidden; /* Menyembunyikan teks yang tidak terlihat */
+    border-right: 5px solid #000; /* Menambahkan imitasi kursor ketik */
+    animation: typing 3s steps(40) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 .bg-content p {
@@ -203,7 +216,8 @@ html {
 }
 
 .deskripsi {
-    font-size: 12px;
+    font-size: 20px;
+    font-weight: bold;
     padding: 15px;
     text-align: center;
 }
@@ -313,7 +327,7 @@ html {
 /*Garis scroll*/
 /* width */
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 10px;
   }
   
   /* Track */
