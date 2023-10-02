@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI & Analisis Gejala Penyakit ChatDoc</title>
+    <link rel="stylesheet" href="./css/kalkulator.css">
+</head>
+</head>
+<body>
+    <div class="body"></div>
+    <div class="container">
+        <h1>Aplikasi Kalkulator BMI & Analisis Gejala Penyakit</h1>
+        <h2>Kalkulator BMI</h2>
+        <input type="text" id="weight" placeholder="Berat (kg)">
+        <input type="text" id="height" placeholder="Tinggi (cm)">
+        <button onclick="calculateBMI()">Hitung BMI</button>
+        <div id="result"></div>
+
+        <h2>Analisis Gejala Penyakit</h2>
+        <select id="diseaseSelect">
+            <option value="flu">Flu</option>
+            <option value="covid">COVID-19</option>
+            <option value="allergy">Alergi</option>
+        </select>
+        <button onclick="analyzeSymptoms()">Analisis Gejala</button>
+        <div id="diseaseResult" class="disease-list">
+            <h2>Hasil Analisis</h2>
+            <ul id="symptomsList"></ul>
+        </div>
+    </div>
+
+</body>
+<script src="./js/kalkulator.js"></script>
+</html>
