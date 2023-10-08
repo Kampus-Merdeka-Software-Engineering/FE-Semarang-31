@@ -154,7 +154,7 @@ html {
 }
 
 .profil-cntn p {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
@@ -190,13 +190,13 @@ html {
 }
 
 .service-kiri p {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
 .service-cntn {
     margin: 30px;
-    border: 10px solid #ccc;
+    border: 10px solid #e8e8e8b7;
     float: left;
     width: 200px;
     display: flex;
@@ -253,6 +253,11 @@ html {
 .inner-footer a:hover{
     margin-left: 10px;
 }
+.copyright {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
 
 /*Formulir*/
 
@@ -299,10 +304,11 @@ html {
     outline: none;
 }
 
-.close-button {
+.close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0;
+    right: 0;
+    padding: 1rem;
     cursor: pointer;
 }
 .form-cont {

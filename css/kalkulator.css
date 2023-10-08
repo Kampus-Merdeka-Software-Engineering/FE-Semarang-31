@@ -37,7 +37,7 @@ body {
   }
 .container {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: 20px auto;
@@ -49,13 +49,13 @@ h1 {
 }
 input[type="text"], select {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 button {
-    background-color: #007BFF;
+    background-color: #57b1ff;
     color: #fff;
     border: none;
     border-radius: 5px;
