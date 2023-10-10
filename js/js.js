@@ -7,6 +7,7 @@ registrationForm.addEventListener("submit", (event) => {
   const jenis_kelamin = document.getElementById("jenis_kelamin").value;
   const no_hp = document.getElementById("no_hp").value;
   const email = document.getElementById("email").value;
+  const dokter = document.getElementById("dokter").value;
   const tgl_kons = document.getElementById("tgl_kons").value;
   const pil_wkt = document.getElementById("pil_wkt").value;
 
@@ -19,6 +20,7 @@ registrationForm.addEventListener("submit", (event) => {
       nama: nama,
       no_hp: no_hp,
       email: email,
+      dokter: dokter,
       tgl_kons: tgl_kons,
       jenis_kelamin: jenis_kelamin,
       pil_wkt:pil_wkt,
